@@ -1,0 +1,71 @@
+/* GLOBAL CSS SECTION */
+.wBody {
+    
+}
+
+body {
+    background-color: #C1C1C1;
+    margin: 75px;
+    /*i used this to check*/
+    /* border: 2px solid rgb(0, 0, 0);  */
+}
+
+/* GLOBAL colored elements */
+
+.purple {
+    background-color: #E39FF6;
+}
+
+.gray {
+    background-color: #292929;
+}
+
+.gray a {
+    color: #fff;
+}
+
+a {
+    color: #000;
+}
+/* HEADER CSS SECTION */
+
+header {
+    /* display: grid;
+    border: 2px solid rgb(0, 0, 0);
+    grid-template-columns: repeat(6,1fr); 
+    grid-column-gap: 10px;  */
+}
+
+.navbar {
+    /* display: grid;
+    border: 2px solid rgb(0, 0, 0);
+    grid-template-columns: repeat(6,1fr); 
+    grid-column-gap: 10px;  */
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    display: grid;
+    /* border: 2px solid rgb(0, 0, 0); */
+    grid-template-columns: repeat(6,1fr); 
+    grid-column-gap: 2px;
+    text-align: center;   
+}
+
+.navbar nav li {
+    display: inline-block;
+    outline: 2px black solid;
+    padding: 3%;
+}
+
+.navbar nav li a {
+    text-decoration: none;
+    font-family: 'Anybody', sans-serif;  
+    font-weight: 500;
+    font-size: 25px;
+    /* color: #000; */
+}  
+
