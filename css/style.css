@@ -10,7 +10,7 @@ body {
     /* border: 2px solid rgb(0, 0, 0);  */
 }
 
-/* GLOBAL colored elements */
+/* GLOBAL COLORED ELEMENTS */
 
 .purple {
     background-color: #E39FF6;
@@ -70,3 +70,11 @@ header {
 }  
 
 /* BODY CSS SECTION */
+
+.abtRight {
+    
+}
+
+.abtLeft {
+
+}
