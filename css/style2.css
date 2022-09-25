@@ -91,7 +91,15 @@ header {
 .gridsm {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.gridsm2 {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(4, 1fr);
     width: 100%;
     height: 100%;
 }
@@ -99,6 +107,10 @@ header {
 .center {
     justify-items: center;
     align-items: center;
+}
+
+.text_center {
+    text-align: center;
 }
 
 .flex {
@@ -140,8 +152,6 @@ header {
 .abtDiscuss {
     grid-column:1/2;
     grid-row:11/12;
-    width: 31.200000000000003rem;
-    margin: auto;
     border-right: 1px black solid;
 }
 
@@ -327,3 +337,192 @@ fieldset {
     border-bottom: 1px black solid;
 }
 
+
+
+/*ABOUT ME SECTION*/
+
+.blog .heading {
+    grid-column: 1/4;
+    padding-left: 20px;
+    border-bottom: 1px black solid;
+}
+.contain-blog {
+    grid-column: 1/4;
+    grid-row: 2/7;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.leftBlog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    
+}
+
+.rightBlog {
+    background-color: #2d2d2d;
+}
+
+.blog .border1 {
+    grid-column: 1/4;
+    grid-row: 7/8;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.blog .blogContact {
+    grid-column: 1/4;
+    grid-row: 8/12;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    background-color: #2d2d2d;
+}
+
+.blog .abtMe {
+    grid-column: 1/4;
+    grid-row: 1/5;
+    /* background-color: wheat; */
+    border-bottom: 1px black solid;
+    
+}
+
+.contact .heading {
+    grid-column: 1/4;
+    padding-left: 20px;
+    border-bottom: 1px black solid;
+}
+
+.abtMe .abtMetxt {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+
+
+/*ABOUT ME SECTION BOXES*/
+
+.textcenter {
+    text-align: center;
+}
+
+.textcenter a {
+    text-decoration: none;
+}
+
+.bTop {
+    border-top: 1px black solid;
+}
+
+.bRight {
+    border-right: 1px black solid;
+}
+
+.bLeft {
+    border-left: 1px black solid;
+}
+
+.bDown {
+    border-bottom: 1px black solid;
+}
+
+/*CONTACT SECTION */
+
+.cont_contact {
+    grid-column: 1/4;
+    grid-row: 3/8;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.cont_contact1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.cont_contact1 .heading {
+    height: 30px;
+    border-bottom: 2px black solid;
+}
+
+.cont_contact1 .disc_proj {
+    padding: 30PX 20px 0;
+}
+
+.cont_contact1 .disc_proj i {
+    /* outline: 1px #98ff98 outset; */
+    padding-right: 5px;
+}
+
+.cont_contact1 .disc_proj a {
+    text-decoration: none;
+}
+
+.cont_contact2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.cont_contact2 .heading {
+    height: 30px;
+    border-bottom: 2px black solid;
+}
+
+.cont_contact2 .cont_1 {
+    padding: 30px 20px 0;
+    background-color: lightblue;
+    flex: 4 1 auto;
+}
+
+.cont_contact2 .cont_2 {
+    background-color: #2d2d2d;
+}
+
+.cont_contact2 .cont_2 p{
+    text-align: center;
+    background-color: #2d2d2d;
+}
+
+.cont_contact2 .cont_2 p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.othrDetails {
+    grid-column: 1/4;
+    grid-row: 10/13;
+    border-top: 1px black solid;
+}
+
+.otherDetails_cont {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.othrDetails .othrContact {
+    grid-column: 5/7;
+    grid-row: 1/4;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.othrDetails .PrvUsrAgreement {
+    grid-column: 1/5;
+    grid-row: 2/4;
+    padding-top: 20px;
+}
+
+.othrDetails a {
+    text-decoration: none;
+}
+
+.flex2 {
+    display: flex;
+    height: 82.3%;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
