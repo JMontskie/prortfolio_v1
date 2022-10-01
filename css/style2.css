@@ -37,6 +37,20 @@ body {
 a {
     color: #000;
 }
+/* HIDE SCROLLBAR */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+
+
+
 /* HEADER CSS SECTION */
 
 header {
