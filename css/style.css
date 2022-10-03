@@ -264,9 +264,7 @@ li {
 }
 
 .rest {
-    /* position: absolute;
-    top: 0;
-    left: 0; */
+    position: relative ;
 }
 
 .awesome-thing {
@@ -294,6 +292,21 @@ li {
     opacity: 0;
     transform: translateY(50px) rotateZ(90deg);
 }
+
+.ml12 {
+padding: 1rem;
+font-weight: 200;
+font-size: 1.8em;
+text-transform: uppercase;
+letter-spacing: 0.5em;
+}
+  
+.ml12 .letter {
+display: inline-block;
+line-height: 1em;
+}
+
+
 
 
 /*SERVICES SECTION*/
@@ -340,18 +353,23 @@ li {
     font-size: 15px;
 }
 
+.servContact2 .consent .modal {
+    color: black;
+}
 
 /*PREVIOUS PROJECTS SECTION*/
 
+/* 1200 x 676 */
 .prev_project {
     padding: 2rem;
 }
 
+.proj_img img {
+    width: 50rem;
+    height: 50rem;
+}
 
 /*BLOG SECTION*/
-/* .leftBlog {
-    
-} */
 
 .rightBlog {
     background-color: #2d2d2d;
@@ -456,6 +474,16 @@ li {
 
     .servContact1 {
         padding-left: 4rem;
+    }
+
+    /* .proj_img {
+        height: 25rem;
+        width: 25rem;
+    } */
+
+    .ml12 {
+        padding: 1rem;
+        font-size: 1rem;
     }
 
   }
